@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "activerecord-hive-adapter/version"
+require "activerecord_hive_adapter/version"
 
 Gem::Specification.new do |s|
   s.name        = "activerecord-hive-adapter"
@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.summary     = %q{Hive adapter for ActiveRecord}
   s.description = %q{Hive adapter for ActiveRecord}
 
-  s.rubyforge_project = "activerecord-hive-adapter"
+  s.rubyforge_project = 'activerecord-hive-adapter'
 
   s.add_dependency('thrift')
   s.add_dependency('arel')
