@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "activerecord_hive_adapter/version"
+require "activerecord-hive-adapter/version"
 
 Gem::Specification.new do |s|
   s.name        = "activerecord-hive-adapter"
